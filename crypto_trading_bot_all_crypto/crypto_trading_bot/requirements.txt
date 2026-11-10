@@ -1,0 +1,15 @@
+# Stage 1: project setup + market data
+alpaca-py>=0.40
+ccxt>=4.3          # optional: only for non-Alpaca sources such as Kraken
+pandas>=2.2
+numpy>=1.26
+SQLAlchemy>=2.0
+python-dotenv>=1.0
+streamlit>=1.40      # read-only data viewer (dashboard/app.py)
+plotly>=5.20
+pytest>=8.0
+pytest-asyncio>=0.23
+# PostgreSQL (optional, later): psycopg[binary]>=3.1
+#
+# Added in later stages (not needed yet):
+# pandas-ta / TA-Lib, scikit-learn, APScheduler, streamlit, vectorbt

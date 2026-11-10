@@ -1,0 +1,733 @@
+2026-11-09 23:18:05,963 | INFO     | bot.main | data source: alpaca | mode: PAPER TRADING ENABLED
+2026-11-09 23:18:07,427 | INFO     | bot.alpaca | Alpaca lists 73 tradable crypto assets
+2026-11-09 23:18:07,428 | INFO     | bot.main | USE_ALL_CRYPTO=true → trading 73 pairs: AAVE/USD, AAVE/USDC, AAVE/USDT, ADA/USD, ARB/USD, AVAX/USD, AVAX/USDC, AVAX/USDT, BAT/USD, BAT/USDC, BCH/BTC, BCH/USD ...
+2026-11-09 23:18:18,484 | WARNING  | bot.historical | AAVE/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:18:18,484 | INFO     | bot.historical | AAVE/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:18:25,674 | INFO     | bot.historical | AAVE/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:18:29,352 | WARNING  | bot.historical | AAVE/USD 15m: 4 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:18:29,353 | INFO     | bot.historical | AAVE/USD 15m: pages=3 fetched=23991 inserted=23991 dropped=0
+2026-11-09 23:18:29,626 | INFO     | bot.historical | AAVE/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:18:46,296 | WARNING  | bot.historical | AAVE/USDC 15m: 4 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:18:46,297 | INFO     | bot.historical | AAVE/USDC 15m: pages=3 fetched=23991 inserted=23991 dropped=0
+2026-11-09 23:18:58,325 | WARNING  | bot.historical | AAVE/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:18:58,326 | INFO     | bot.historical | AAVE/USDC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:18:58,714 | WARNING  | bot.historical | AAVE/USD 5m: 571 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:18:58,715 | INFO     | bot.historical | AAVE/USD 5m: pages=8 fetched=71333 inserted=71333 dropped=0
+2026-11-09 23:19:08,702 | INFO     | bot.historical | AAVE/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:19:09,039 | INFO     | bot.historical | AAVE/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:19:21,891 | WARNING  | bot.historical | AAVE/USDC 5m: 606 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:19:21,891 | INFO     | bot.historical | AAVE/USDC 5m: pages=8 fetched=71303 inserted=71303 dropped=0
+2026-11-09 23:19:24,039 | WARNING  | bot.historical | AAVE/USDT 15m: 8 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:19:24,040 | INFO     | bot.historical | AAVE/USDT 15m: pages=3 fetched=23987 inserted=23987 dropped=0
+2026-11-09 23:19:28,840 | WARNING  | bot.historical | AAVE/USDT 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:19:28,841 | INFO     | bot.historical | AAVE/USDT 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:19:37,142 | INFO     | bot.historical | AAVE/USDT 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:19:37,465 | INFO     | bot.historical | AAVE/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:19:51,074 | WARNING  | bot.historical | ADA/USD 15m: 10 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:19:51,075 | INFO     | bot.historical | ADA/USD 15m: pages=3 fetched=23985 inserted=23985 dropped=0
+2026-11-09 23:19:51,408 | WARNING  | bot.historical | AAVE/USDT 5m: 598 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:19:51,409 | INFO     | bot.historical | AAVE/USDT 5m: pages=8 fetched=71290 inserted=71290 dropped=0
+2026-11-09 23:19:57,538 | WARNING  | bot.historical | ADA/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:19:57,539 | INFO     | bot.historical | ADA/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:20:03,083 | INFO     | bot.historical | ADA/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:20:04,849 | INFO     | bot.historical | ADA/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:20:17,037 | WARNING  | bot.historical | ADA/USD 5m: 1112 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:20:17,038 | INFO     | bot.historical | ADA/USD 5m: pages=8 fetched=70718 inserted=70718 dropped=0
+2026-11-09 23:20:18,185 | INFO     | bot.historical | ARB/USD 15m: pages=3 fetched=23995 inserted=23995 dropped=0
+2026-11-09 23:20:24,779 | WARNING  | bot.historical | ARB/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:20:24,779 | INFO     | bot.historical | ARB/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:20:29,218 | INFO     | bot.historical | ARB/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:20:30,819 | INFO     | bot.historical | ARB/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:20:41,564 | WARNING  | bot.historical | AVAX/USD 15m: 20 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:20:41,564 | INFO     | bot.historical | AVAX/USD 15m: pages=3 fetched=23974 inserted=23974 dropped=0
+2026-11-09 23:20:42,777 | WARNING  | bot.historical | ARB/USD 5m: 536 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:20:42,778 | INFO     | bot.historical | ARB/USD 5m: pages=9 fetched=71376 inserted=71376 dropped=0
+2026-11-09 23:20:45,935 | WARNING  | bot.historical | AVAX/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:20:45,936 | INFO     | bot.historical | AVAX/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:20:50,032 | INFO     | bot.historical | AVAX/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:20:50,356 | INFO     | bot.historical | AVAX/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:20:58,859 | WARNING  | bot.historical | AVAX/USD 5m: 1749 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:20:58,859 | INFO     | bot.historical | AVAX/USD 5m: pages=8 fetched=69927 inserted=69927 dropped=0
+2026-11-09 23:21:00,892 | WARNING  | bot.historical | AVAX/USDC 15m: 23 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:21:00,893 | INFO     | bot.historical | AVAX/USDC 15m: pages=3 fetched=23971 inserted=23971 dropped=0
+2026-11-09 23:21:10,408 | WARNING  | bot.historical | AVAX/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:21:10,409 | INFO     | bot.historical | AVAX/USDC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:21:17,596 | INFO     | bot.historical | AVAX/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:21:17,928 | INFO     | bot.historical | AVAX/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:21:29,836 | WARNING  | bot.historical | AVAX/USDC 5m: 1910 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:21:29,836 | INFO     | bot.historical | AVAX/USDC 5m: pages=7 fetched=69706 inserted=69706 dropped=0
+2026-11-09 23:21:34,633 | WARNING  | bot.historical | AVAX/USDT 15m: 22 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:21:34,633 | INFO     | bot.historical | AVAX/USDT 15m: pages=3 fetched=23972 inserted=23972 dropped=0
+2026-11-09 23:21:40,861 | WARNING  | bot.historical | AVAX/USDT 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:21:40,862 | INFO     | bot.historical | AVAX/USDT 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:21:51,479 | INFO     | bot.historical | AVAX/USDT 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:21:51,834 | INFO     | bot.historical | AVAX/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:22:04,085 | WARNING  | bot.historical | AVAX/USDT 5m: 1849 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:22:04,085 | INFO     | bot.historical | AVAX/USDT 5m: pages=7 fetched=69793 inserted=69793 dropped=0
+2026-11-09 23:22:05,943 | WARNING  | bot.historical | BAT/USD 15m: 116 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:22:05,943 | INFO     | bot.historical | BAT/USD 15m: pages=3 fetched=23862 inserted=23862 dropped=0
+2026-11-09 23:22:16,212 | WARNING  | bot.historical | BAT/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:22:16,212 | INFO     | bot.historical | BAT/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:22:23,478 | INFO     | bot.historical | BAT/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:22:23,795 | INFO     | bot.historical | BAT/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:22:35,129 | WARNING  | bot.historical | BAT/USD 5m: 2670 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:22:35,129 | INFO     | bot.historical | BAT/USD 5m: pages=7 fetched=68262 inserted=68262 dropped=0
+2026-11-09 23:22:37,064 | WARNING  | bot.historical | BAT/USDC 15m: 120 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:22:37,065 | INFO     | bot.historical | BAT/USDC 15m: pages=3 fetched=23857 inserted=23857 dropped=0
+2026-11-09 23:22:46,149 | WARNING  | bot.historical | BAT/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:22:46,150 | INFO     | bot.historical | BAT/USDC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:22:54,138 | INFO     | bot.historical | BAT/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:22:54,433 | INFO     | bot.historical | BAT/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:23:06,485 | WARNING  | bot.historical | BAT/USDC 5m: 2696 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:23:06,486 | INFO     | bot.historical | BAT/USDC 5m: pages=7 fetched=68227 inserted=68227 dropped=0
+2026-11-09 23:23:08,289 | WARNING  | bot.historical | BCH/BTC 15m: 79 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:23:08,289 | INFO     | bot.historical | BCH/BTC 15m: pages=3 fetched=23849 inserted=23849 dropped=0
+2026-11-09 23:23:14,108 | INFO     | bot.historical | BCH/BTC 1h: pages=1 fetched=5985 inserted=5985 dropped=0
+2026-11-09 23:23:23,846 | INFO     | bot.historical | BCH/BTC 4h: pages=1 fetched=1498 inserted=1498 dropped=0
+2026-11-09 23:23:24,233 | INFO     | bot.historical | BCH/BTC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:23:37,495 | WARNING  | bot.historical | BCH/BTC 5m: 3572 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:23:37,496 | INFO     | bot.historical | BCH/BTC 5m: pages=7 fetched=67237 inserted=67237 dropped=0
+2026-11-09 23:23:40,364 | WARNING  | bot.historical | BCH/USD 15m: 68 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:23:40,365 | INFO     | bot.historical | BCH/USD 15m: pages=3 fetched=23905 inserted=23905 dropped=0
+2026-11-09 23:23:45,164 | WARNING  | bot.historical | BCH/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:23:45,165 | INFO     | bot.historical | BCH/USD 1h: pages=1 fetched=5996 inserted=5996 dropped=0
+2026-11-09 23:23:52,534 | INFO     | bot.historical | BCH/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:23:52,859 | INFO     | bot.historical | BCH/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:24:05,935 | WARNING  | bot.historical | BCH/USD 5m: 2913 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:24:05,935 | INFO     | bot.historical | BCH/USD 5m: pages=7 fetched=68199 inserted=68199 dropped=0
+2026-11-09 23:24:07,594 | WARNING  | bot.historical | BCH/USDC 15m: 102 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:24:07,595 | INFO     | bot.historical | BCH/USDC 15m: pages=3 fetched=23855 inserted=23855 dropped=0
+2026-11-09 23:24:13,429 | WARNING  | bot.historical | BCH/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:24:13,429 | INFO     | bot.historical | BCH/USDC 1h: pages=1 fetched=5993 inserted=5993 dropped=0
+2026-11-09 23:24:23,173 | INFO     | bot.historical | BCH/USDC 4h: pages=1 fetched=1499 inserted=1499 dropped=0
+2026-11-09 23:24:23,472 | INFO     | bot.historical | BCH/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:24:34,637 | WARNING  | bot.historical | BCH/USDC 5m: 3120 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:24:34,638 | INFO     | bot.historical | BCH/USDC 5m: pages=7 fetched=67831 inserted=67831 dropped=0
+2026-11-09 23:24:36,428 | WARNING  | bot.historical | BCH/USDT 15m: 97 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:24:36,429 | INFO     | bot.historical | BCH/USDT 15m: pages=3 fetched=23850 inserted=23850 dropped=0
+2026-11-09 23:24:45,480 | WARNING  | bot.historical | BCH/USDT 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:24:45,480 | INFO     | bot.historical | BCH/USDT 1h: pages=1 fetched=5990 inserted=5990 dropped=0
+2026-11-09 23:24:52,422 | INFO     | bot.historical | BCH/USDT 4h: pages=1 fetched=1499 inserted=1499 dropped=0
+2026-11-09 23:24:52,785 | INFO     | bot.historical | BCH/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:25:09,913 | WARNING  | bot.historical | BCH/USDT 5m: 3027 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:25:09,913 | INFO     | bot.historical | BCH/USDT 5m: pages=7 fetched=67880 inserted=67880 dropped=0
+2026-11-09 23:25:14,407 | INFO     | bot.historical | BONK/USD 15m: pages=3 fetched=23995 inserted=23995 dropped=0
+2026-11-09 23:25:21,960 | WARNING  | bot.historical | BONK/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:25:21,961 | INFO     | bot.historical | BONK/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:25:31,078 | INFO     | bot.historical | BONK/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:25:31,412 | INFO     | bot.historical | BONK/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:25:51,437 | INFO     | bot.historical | BTC/USD 15m: pages=3 fetched=23995 inserted=23995 dropped=0
+2026-11-09 23:25:51,790 | WARNING  | bot.historical | BONK/USD 5m: 404 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:25:51,790 | INFO     | bot.historical | BONK/USD 5m: pages=8 fetched=71540 inserted=71540 dropped=0
+2026-11-09 23:26:07,885 | WARNING  | bot.historical | BTC/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:26:07,885 | INFO     | bot.historical | BTC/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:26:19,339 | INFO     | bot.historical | BTC/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:26:22,950 | INFO     | bot.historical | BTC/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:26:33,203 | WARNING  | bot.historical | BTC/USD 5m: 44 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:26:33,204 | INFO     | bot.historical | BTC/USD 5m: pages=8 fetched=71937 inserted=71937 dropped=0
+2026-11-09 23:26:34,021 | WARNING  | bot.historical | BTC/USDC 15m: 631 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:26:34,022 | INFO     | bot.historical | BTC/USDC 15m: pages=3 fetched=23032 inserted=23032 dropped=0
+2026-11-09 23:26:37,017 | WARNING  | bot.historical | BTC/USDC 1h: 14 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:26:37,018 | INFO     | bot.historical | BTC/USDC 1h: pages=1 fetched=5984 inserted=5984 dropped=0
+2026-11-09 23:26:38,914 | INFO     | bot.historical | BTC/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:26:40,023 | INFO     | bot.historical | BTC/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:26:47,276 | WARNING  | bot.historical | BTC/USDC 5m: 6563 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:26:47,277 | INFO     | bot.historical | BTC/USDC 5m: pages=7 fetched=60183 inserted=60183 dropped=0
+2026-11-09 23:26:55,134 | WARNING  | bot.historical | BTC/USDT 1h: 10 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:26:55,134 | INFO     | bot.historical | BTC/USDT 1h: pages=1 fetched=5981 inserted=5981 dropped=0
+2026-11-09 23:26:58,904 | WARNING  | bot.historical | BTC/USDT 15m: 608 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:26:58,904 | INFO     | bot.historical | BTC/USDT 15m: pages=3 fetched=23071 inserted=23071 dropped=0
+2026-11-09 23:27:05,190 | INFO     | bot.historical | BTC/USDT 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:27:05,494 | INFO     | bot.historical | BTC/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:27:21,551 | WARNING  | bot.historical | BTC/USDT 5m: 6559 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:27:21,552 | INFO     | bot.historical | BTC/USDT 5m: pages=7 fetched=60377 inserted=60377 dropped=0
+2026-11-09 23:27:25,898 | WARNING  | bot.historical | CRV/USD 15m: 8 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:27:25,899 | INFO     | bot.historical | CRV/USD 15m: pages=3 fetched=23987 inserted=23987 dropped=0
+2026-11-09 23:27:36,611 | WARNING  | bot.historical | CRV/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:27:36,611 | INFO     | bot.historical | CRV/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:27:47,662 | INFO     | bot.historical | CRV/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:27:47,967 | INFO     | bot.historical | CRV/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:28:09,856 | WARNING  | bot.historical | CRV/USDC 15m: 14 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:28:09,857 | INFO     | bot.historical | CRV/USDC 15m: pages=3 fetched=23978 inserted=23978 dropped=0
+2026-11-09 23:28:10,177 | WARNING  | bot.historical | CRV/USD 5m: 903 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:28:10,178 | INFO     | bot.historical | CRV/USD 5m: pages=8 fetched=70953 inserted=70953 dropped=0
+2026-11-09 23:28:17,591 | WARNING  | bot.historical | CRV/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:28:17,592 | INFO     | bot.historical | CRV/USDC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:28:24,551 | INFO     | bot.historical | CRV/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:28:26,514 | INFO     | bot.historical | CRV/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:28:44,304 | WARNING  | bot.historical | CRV/USDC 5m: 919 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:28:44,304 | INFO     | bot.historical | CRV/USDC 5m: pages=8 fetched=70909 inserted=70909 dropped=0
+2026-11-09 23:28:45,378 | WARNING  | bot.historical | DOGE/USD 15m: 70 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:28:45,379 | INFO     | bot.historical | DOGE/USD 15m: pages=3 fetched=23919 inserted=23919 dropped=0
+2026-11-09 23:28:54,081 | WARNING  | bot.historical | DOGE/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:28:54,082 | INFO     | bot.historical | DOGE/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:29:03,651 | INFO     | bot.historical | DOGE/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:29:06,425 | INFO     | bot.historical | DOGE/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:29:19,256 | WARNING  | bot.historical | DOGE/USD 5m: 2232 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:29:19,256 | INFO     | bot.historical | DOGE/USD 5m: pages=7 fetched=69094 inserted=69094 dropped=0
+2026-11-09 23:29:31,847 | WARNING  | bot.historical | DOGE/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:29:31,848 | INFO     | bot.historical | DOGE/USDC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:29:33,994 | WARNING  | bot.historical | DOGE/USDC 15m: 77 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:29:33,994 | INFO     | bot.historical | DOGE/USDC 15m: pages=3 fetched=23902 inserted=23902 dropped=0
+2026-11-09 23:29:42,923 | INFO     | bot.historical | DOGE/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:29:43,226 | INFO     | bot.historical | DOGE/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:29:54,831 | WARNING  | bot.historical | DOGE/USDC 5m: 2351 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:29:54,832 | INFO     | bot.historical | DOGE/USDC 5m: pages=7 fetched=68911 inserted=68911 dropped=0
+2026-11-09 23:29:58,100 | WARNING  | bot.historical | DOGE/USDT 15m: 70 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:29:58,101 | INFO     | bot.historical | DOGE/USDT 15m: pages=3 fetched=23915 inserted=23915 dropped=0
+2026-11-09 23:30:08,463 | WARNING  | bot.historical | DOGE/USDT 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:30:08,464 | INFO     | bot.historical | DOGE/USDT 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:30:22,733 | INFO     | bot.historical | DOGE/USDT 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:30:23,082 | INFO     | bot.historical | DOGE/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:30:39,041 | WARNING  | bot.historical | DOGE/USDT 5m: 2329 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:30:39,042 | INFO     | bot.historical | DOGE/USDT 5m: pages=7 fetched=68964 inserted=68964 dropped=0
+2026-11-09 23:30:45,684 | WARNING  | bot.historical | DOT/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:30:45,685 | INFO     | bot.historical | DOT/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:30:46,930 | WARNING  | bot.historical | DOT/USD 15m: 14 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:30:46,931 | INFO     | bot.historical | DOT/USD 15m: pages=4 fetched=23982 inserted=23982 dropped=0
+2026-11-09 23:30:50,418 | INFO     | bot.historical | DOT/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:30:51,724 | INFO     | bot.historical | DOT/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:32:22,874 | WARNING  | bot.historical | DOT/USD 5m: 1083 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:32:22,874 | INFO     | bot.historical | DOT/USD 5m: pages=8 fetched=70730 inserted=70730 dropped=0
+2026-11-09 23:32:24,758 | WARNING  | bot.historical | DOT/USDC 15m: 16 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:32:24,758 | INFO     | bot.historical | DOT/USDC 15m: pages=3 fetched=23980 inserted=23980 dropped=0
+2026-11-09 23:32:32,356 | WARNING  | bot.historical | DOT/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:32:32,357 | INFO     | bot.historical | DOT/USDC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:32:37,074 | INFO     | bot.historical | DOT/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:32:38,664 | INFO     | bot.historical | DOT/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:32:47,372 | WARNING  | bot.historical | DOT/USDC 5m: 1125 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:32:47,372 | INFO     | bot.historical | DOT/USDC 5m: pages=8 fetched=70671 inserted=70671 dropped=0
+2026-11-09 23:32:48,028 | WARNING  | bot.historical | ETH/BTC 15m: 1180 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:32:48,029 | INFO     | bot.historical | ETH/BTC 15m: pages=3 fetched=22318 inserted=22318 dropped=0
+2026-11-09 23:32:50,590 | WARNING  | bot.historical | ETH/BTC 1h: 19 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:32:50,590 | INFO     | bot.historical | ETH/BTC 1h: pages=1 fetched=5977 inserted=5977 dropped=0
+2026-11-09 23:32:52,509 | INFO     | bot.historical | ETH/BTC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:32:53,697 | INFO     | bot.historical | ETH/BTC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:32:55,288 | WARNING  | bot.historical | ETH/BTC 5m: 10203 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:32:55,288 | INFO     | bot.historical | ETH/BTC 5m: pages=6 fetched=52603 inserted=52603 dropped=0
+2026-11-09 23:33:02,043 | WARNING  | bot.historical | ETH/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:33:02,043 | INFO     | bot.historical | ETH/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:33:08,967 | INFO     | bot.historical | ETH/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:33:10,273 | WARNING  | bot.historical | ETH/USD 15m: 88 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:33:10,273 | INFO     | bot.historical | ETH/USD 15m: pages=3 fetched=23893 inserted=23893 dropped=0
+2026-11-09 23:33:11,896 | INFO     | bot.historical | ETH/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:33:21,289 | WARNING  | bot.historical | ETH/USD 5m: 2719 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:33:21,290 | INFO     | bot.historical | ETH/USD 5m: pages=7 fetched=68439 inserted=68439 dropped=0
+2026-11-09 23:33:22,039 | WARNING  | bot.historical | ETH/USDC 15m: 285 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:33:22,040 | INFO     | bot.historical | ETH/USDC 15m: pages=3 fetched=23643 inserted=23643 dropped=0
+2026-11-09 23:33:25,811 | WARNING  | bot.historical | ETH/USDC 1h: 2 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:33:25,811 | INFO     | bot.historical | ETH/USDC 1h: pages=1 fetched=5998 inserted=5998 dropped=0
+2026-11-09 23:33:28,399 | INFO     | bot.historical | ETH/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:33:29,579 | INFO     | bot.historical | ETH/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:33:35,599 | WARNING  | bot.historical | ETH/USDC 5m: 4256 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:33:35,599 | INFO     | bot.historical | ETH/USDC 5m: pages=7 fetched=65468 inserted=65468 dropped=0
+2026-11-09 23:33:41,664 | WARNING  | bot.historical | ETH/USDT 1h: 4 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:33:41,665 | INFO     | bot.historical | ETH/USDT 1h: pages=1 fetched=5996 inserted=5996 dropped=0
+2026-11-09 23:33:42,550 | WARNING  | bot.historical | ETH/USDT 15m: 254 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:33:42,550 | INFO     | bot.historical | ETH/USDT 15m: pages=3 fetched=23660 inserted=23660 dropped=0
+2026-11-09 23:33:46,577 | INFO     | bot.historical | ETH/USDT 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:33:46,907 | INFO     | bot.historical | ETH/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:33:57,112 | WARNING  | bot.historical | ETH/USDT 5m: 3970 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:33:57,113 | INFO     | bot.historical | ETH/USDT 5m: pages=7 fetched=65932 inserted=65932 dropped=0
+2026-11-09 23:33:59,529 | WARNING  | bot.historical | FIL/USD 15m: 9 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:33:59,529 | INFO     | bot.historical | FIL/USD 15m: pages=3 fetched=23987 inserted=23987 dropped=0
+2026-11-09 23:34:05,745 | WARNING  | bot.historical | FIL/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:34:05,745 | INFO     | bot.historical | FIL/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:34:11,800 | INFO     | bot.historical | FIL/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:34:12,149 | INFO     | bot.historical | FIL/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:34:28,001 | WARNING  | bot.historical | GRT/USD 15m: 25 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:34:28,002 | INFO     | bot.historical | GRT/USD 15m: pages=3 fetched=23969 inserted=23969 dropped=0
+2026-11-09 23:34:28,380 | WARNING  | bot.historical | FIL/USD 5m: 791 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:34:28,380 | INFO     | bot.historical | FIL/USD 5m: pages=8 fetched=71066 inserted=71066 dropped=0
+2026-11-09 23:34:37,737 | WARNING  | bot.historical | GRT/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:34:37,737 | INFO     | bot.historical | GRT/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:34:51,496 | INFO     | bot.historical | GRT/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:34:53,148 | INFO     | bot.historical | GRT/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:35:10,355 | WARNING  | bot.historical | GRT/USD 5m: 2014 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:35:10,355 | INFO     | bot.historical | GRT/USD 5m: pages=7 fetched=69592 inserted=69592 dropped=0
+2026-11-09 23:35:22,723 | WARNING  | bot.historical | GRT/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:35:22,724 | INFO     | bot.historical | GRT/USDC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:35:23,792 | WARNING  | bot.historical | GRT/USDC 15m: 23 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:35:23,792 | INFO     | bot.historical | GRT/USDC 15m: pages=3 fetched=23968 inserted=23968 dropped=0
+2026-11-09 23:35:30,042 | INFO     | bot.historical | GRT/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:35:30,375 | INFO     | bot.historical | GRT/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:35:49,155 | WARNING  | bot.historical | GRT/USDC 5m: 2023 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:35:49,155 | INFO     | bot.historical | GRT/USDC 5m: pages=7 fetched=69574 inserted=69574 dropped=0
+2026-11-09 23:35:53,347 | WARNING  | bot.historical | HYPE/USD 15m: 4 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:35:53,348 | INFO     | bot.historical | HYPE/USD 15m: pages=3 fetched=23992 inserted=23992 dropped=0
+2026-11-09 23:35:59,379 | WARNING  | bot.historical | HYPE/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:35:59,379 | INFO     | bot.historical | HYPE/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:36:17,384 | INFO     | bot.historical | HYPE/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:36:17,729 | INFO     | bot.historical | HYPE/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:36:37,091 | WARNING  | bot.historical | LDO/USD 15m: 4 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:36:37,092 | INFO     | bot.historical | LDO/USD 15m: pages=3 fetched=23991 inserted=23991 dropped=0
+2026-11-09 23:36:37,582 | WARNING  | bot.historical | HYPE/USD 5m: 599 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:36:37,583 | INFO     | bot.historical | HYPE/USD 5m: pages=8 fetched=71309 inserted=71309 dropped=0
+2026-11-09 23:36:48,267 | WARNING  | bot.historical | LDO/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:36:48,267 | INFO     | bot.historical | LDO/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:36:56,365 | INFO     | bot.historical | LDO/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:36:58,357 | INFO     | bot.historical | LDO/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:37:18,649 | WARNING  | bot.historical | LDO/USD 5m: 795 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:37:18,649 | INFO     | bot.historical | LDO/USD 5m: pages=8 fetched=71103 inserted=71103 dropped=0
+2026-11-09 23:37:20,832 | WARNING  | bot.historical | LINK/BTC 15m: 98 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:37:20,832 | INFO     | bot.historical | LINK/BTC 15m: pages=3 fetched=23890 inserted=23890 dropped=0
+2026-11-09 23:37:30,630 | INFO     | bot.historical | LINK/BTC 1h: pages=1 fetched=5998 inserted=5998 dropped=0
+2026-11-09 23:37:36,323 | INFO     | bot.historical | LINK/BTC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:37:38,269 | INFO     | bot.historical | LINK/BTC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:37:47,870 | WARNING  | bot.historical | LINK/BTC 5m: 4267 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:37:47,870 | INFO     | bot.historical | LINK/BTC 5m: pages=7 fetched=66576 inserted=66576 dropped=0
+2026-11-09 23:38:00,097 | WARNING  | bot.historical | LINK/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:38:00,098 | INFO     | bot.historical | LINK/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:38:02,395 | WARNING  | bot.historical | LINK/USD 15m: 14 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:38:02,395 | INFO     | bot.historical | LINK/USD 15m: pages=3 fetched=23982 inserted=23982 dropped=0
+2026-11-09 23:38:17,899 | INFO     | bot.historical | LINK/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:38:18,219 | INFO     | bot.historical | LINK/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:38:34,353 | WARNING  | bot.historical | LINK/USDC 15m: 23 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:38:34,354 | INFO     | bot.historical | LINK/USDC 15m: pages=3 fetched=23917 inserted=23917 dropped=0
+2026-11-09 23:38:34,638 | WARNING  | bot.historical | LINK/USD 5m: 1631 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:38:34,638 | INFO     | bot.historical | LINK/USD 5m: pages=8 fetched=70044 inserted=70044 dropped=0
+2026-11-09 23:38:43,582 | WARNING  | bot.historical | LINK/USDC 1h: 2 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:38:43,583 | INFO     | bot.historical | LINK/USDC 1h: pages=1 fetched=5988 inserted=5988 dropped=0
+2026-11-09 23:38:48,586 | INFO     | bot.historical | LINK/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:38:50,462 | INFO     | bot.historical | LINK/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:39:00,538 | WARNING  | bot.historical | LINK/USDC 5m: 1752 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:39:00,539 | INFO     | bot.historical | LINK/USDC 5m: pages=7 fetched=69689 inserted=69689 dropped=0
+2026-11-09 23:39:17,164 | WARNING  | bot.historical | LINK/USDT 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:39:17,164 | INFO     | bot.historical | LINK/USDT 1h: pages=1 fetched=5985 inserted=5985 dropped=0
+2026-11-09 23:39:19,014 | WARNING  | bot.historical | LINK/USDT 15m: 28 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:39:19,014 | INFO     | bot.historical | LINK/USDT 15m: pages=3 fetched=23908 inserted=23908 dropped=0
+2026-11-09 23:39:32,238 | INFO     | bot.historical | LINK/USDT 4h: pages=1 fetched=1497 inserted=1497 dropped=0
+2026-11-09 23:39:32,641 | INFO     | bot.historical | LINK/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:39:50,435 | WARNING  | bot.historical | LINK/USDT 5m: 1745 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:39:50,435 | INFO     | bot.historical | LINK/USDT 5m: pages=7 fetched=69697 inserted=69697 dropped=0
+2026-11-09 23:39:54,228 | WARNING  | bot.historical | LTC/BTC 15m: 130 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:39:54,228 | INFO     | bot.historical | LTC/BTC 15m: pages=3 fetched=23847 inserted=23847 dropped=0
+2026-11-09 23:40:02,113 | INFO     | bot.historical | LTC/BTC 1h: pages=1 fetched=5998 inserted=5998 dropped=0
+2026-11-09 23:40:11,540 | INFO     | bot.historical | LTC/BTC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:40:11,906 | INFO     | bot.historical | LTC/BTC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:40:21,987 | WARNING  | bot.historical | LTC/BTC 5m: 4780 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:40:21,987 | INFO     | bot.historical | LTC/BTC 5m: pages=7 fetched=65774 inserted=65774 dropped=0
+2026-11-09 23:40:23,746 | WARNING  | bot.historical | LTC/USD 15m: 73 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:40:23,747 | INFO     | bot.historical | LTC/USD 15m: pages=3 fetched=23921 inserted=23921 dropped=0
+2026-11-09 23:40:27,565 | WARNING  | bot.historical | LTC/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:40:27,565 | INFO     | bot.historical | LTC/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:40:32,768 | INFO     | bot.historical | LTC/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:40:33,089 | INFO     | bot.historical | LTC/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:40:46,271 | WARNING  | bot.historical | LTC/USDC 15m: 81 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:40:46,272 | INFO     | bot.historical | LTC/USDC 15m: pages=3 fetched=23912 inserted=23912 dropped=0
+2026-11-09 23:40:46,542 | WARNING  | bot.historical | LTC/USD 5m: 3108 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:40:46,542 | INFO     | bot.historical | LTC/USD 5m: pages=8 fetched=68080 inserted=68080 dropped=0
+2026-11-09 23:40:52,833 | WARNING  | bot.historical | LTC/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:40:52,834 | INFO     | bot.historical | LTC/USDC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:40:56,309 | INFO     | bot.historical | LTC/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:40:57,841 | INFO     | bot.historical | LTC/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:41:05,712 | WARNING  | bot.historical | LTC/USDC 5m: 3382 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:41:05,713 | INFO     | bot.historical | LTC/USDC 5m: pages=7 fetched=67707 inserted=67707 dropped=0
+2026-11-09 23:41:15,396 | WARNING  | bot.historical | LTC/USDT 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:41:15,397 | INFO     | bot.historical | LTC/USDT 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:41:17,004 | WARNING  | bot.historical | LTC/USDT 15m: 101 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:41:17,004 | INFO     | bot.historical | LTC/USDT 15m: pages=3 fetched=23891 inserted=23891 dropped=0
+2026-11-09 23:41:22,876 | INFO     | bot.historical | LTC/USDT 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:41:23,194 | INFO     | bot.historical | LTC/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:41:32,882 | WARNING  | bot.historical | LTC/USDT 5m: 3234 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:41:32,882 | INFO     | bot.historical | LTC/USDT 5m: pages=7 fetched=67840 inserted=67840 dropped=0
+2026-11-09 23:41:35,655 | WARNING  | bot.historical | ONDO/USD 15m: 8 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:41:35,655 | INFO     | bot.historical | ONDO/USD 15m: pages=3 fetched=23988 inserted=23988 dropped=0
+2026-11-09 23:41:40,355 | WARNING  | bot.historical | ONDO/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:41:40,355 | INFO     | bot.historical | ONDO/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:41:44,550 | INFO     | bot.historical | ONDO/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:41:44,865 | INFO     | bot.historical | ONDO/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:41:52,647 | WARNING  | bot.historical | PAXG/USD 15m: 1091 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:41:52,647 | INFO     | bot.historical | PAXG/USD 15m: pages=3 fetched=22455 inserted=22455 dropped=0
+2026-11-09 23:41:53,015 | WARNING  | bot.historical | ONDO/USD 5m: 571 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:41:53,016 | INFO     | bot.historical | ONDO/USD 5m: pages=8 fetched=71335 inserted=71335 dropped=0
+2026-11-09 23:41:55,443 | WARNING  | bot.historical | PAXG/USD 1h: 19 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:41:55,443 | INFO     | bot.historical | PAXG/USD 1h: pages=1 fetched=5975 inserted=5975 dropped=0
+2026-11-09 23:41:57,167 | INFO     | bot.historical | PAXG/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:41:58,307 | INFO     | bot.historical | PAXG/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:41:59,798 | WARNING  | bot.historical | PAXG/USD 5m: 9343 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:41:59,798 | INFO     | bot.historical | PAXG/USD 5m: pages=6 fetched=54522 inserted=54522 dropped=0
+2026-11-09 23:42:05,989 | WARNING  | bot.historical | PEPE/USD 1h: 2 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:42:05,989 | INFO     | bot.historical | PEPE/USD 1h: pages=1 fetched=5998 inserted=5998 dropped=0
+2026-11-09 23:42:11,414 | INFO     | bot.historical | PEPE/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:42:12,214 | WARNING  | bot.historical | PEPE/USD 15m: 72 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:42:12,214 | INFO     | bot.historical | PEPE/USD 15m: pages=3 fetched=23908 inserted=23908 dropped=0
+2026-11-09 23:42:13,286 | INFO     | bot.historical | PEPE/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:42:24,264 | WARNING  | bot.historical | PEPE/USD 5m: 1782 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:42:24,265 | INFO     | bot.historical | PEPE/USD 5m: pages=7 fetched=69565 inserted=69565 dropped=0
+2026-11-09 23:42:28,249 | WARNING  | bot.historical | POL/USD 15m: 72 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:42:28,250 | INFO     | bot.historical | POL/USD 15m: pages=3 fetched=23922 inserted=23922 dropped=0
+2026-11-09 23:42:35,560 | WARNING  | bot.historical | POL/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:42:35,561 | INFO     | bot.historical | POL/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:42:41,170 | INFO     | bot.historical | POL/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:42:45,406 | INFO     | bot.historical | POL/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:42:54,060 | WARNING  | bot.historical | POL/USD 5m: 2781 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:42:54,061 | INFO     | bot.historical | POL/USD 5m: pages=7 fetched=68468 inserted=68468 dropped=0
+2026-11-09 23:43:06,942 | WARNING  | bot.historical | RENDER/USD 1h: 2 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:43:06,942 | INFO     | bot.historical | RENDER/USD 1h: pages=1 fetched=5998 inserted=5998 dropped=0
+2026-11-09 23:43:07,922 | WARNING  | bot.historical | RENDER/USD 15m: 45 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:43:07,922 | INFO     | bot.historical | RENDER/USD 15m: pages=3 fetched=23939 inserted=23939 dropped=0
+2026-11-09 23:43:18,075 | INFO     | bot.historical | RENDER/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:43:18,394 | INFO     | bot.historical | RENDER/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:43:35,051 | WARNING  | bot.historical | SHIB/USD 15m: 56 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:43:35,052 | INFO     | bot.historical | SHIB/USD 15m: pages=3 fetched=23936 inserted=23936 dropped=0
+2026-11-09 23:43:35,331 | WARNING  | bot.historical | RENDER/USD 5m: 1417 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:43:35,331 | INFO     | bot.historical | RENDER/USD 5m: pages=8 fetched=70165 inserted=70165 dropped=0
+2026-11-09 23:43:45,317 | WARNING  | bot.historical | SHIB/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:43:45,317 | INFO     | bot.historical | SHIB/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:43:52,081 | INFO     | bot.historical | SHIB/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:43:56,400 | INFO     | bot.historical | SHIB/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:44:05,323 | WARNING  | bot.historical | SHIB/USD 5m: 1543 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:44:05,323 | INFO     | bot.historical | SHIB/USD 5m: pages=7 fetched=69946 inserted=69946 dropped=0
+2026-11-09 23:44:16,949 | WARNING  | bot.historical | SHIB/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:44:16,949 | INFO     | bot.historical | SHIB/USDC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:44:20,909 | WARNING  | bot.historical | SHIB/USDC 15m: 57 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:44:20,909 | INFO     | bot.historical | SHIB/USDC 15m: pages=3 fetched=23934 inserted=23934 dropped=0
+2026-11-09 23:44:30,989 | INFO     | bot.historical | SHIB/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:44:31,315 | INFO     | bot.historical | SHIB/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:44:45,206 | WARNING  | bot.historical | SHIB/USDC 5m: 1565 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:44:45,206 | INFO     | bot.historical | SHIB/USDC 5m: pages=7 fetched=69917 inserted=69917 dropped=0
+2026-11-09 23:44:47,696 | WARNING  | bot.historical | SHIB/USDT 15m: 56 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:44:47,697 | INFO     | bot.historical | SHIB/USDT 15m: pages=3 fetched=23932 inserted=23932 dropped=0
+2026-11-09 23:44:54,406 | WARNING  | bot.historical | SHIB/USDT 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:44:54,406 | INFO     | bot.historical | SHIB/USDT 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:45:04,286 | INFO     | bot.historical | SHIB/USDT 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:45:04,615 | INFO     | bot.historical | SHIB/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:45:18,343 | WARNING  | bot.historical | SHIB/USDT 5m: 1675 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:45:18,344 | INFO     | bot.historical | SHIB/USDT 5m: pages=7 fetched=69789 inserted=69789 dropped=0
+2026-11-09 23:45:26,898 | INFO     | bot.historical | SKY/USD 1h: pages=1 fetched=5997 inserted=5997 dropped=0
+2026-11-09 23:45:28,040 | WARNING  | bot.historical | SKY/USD 15m: 60 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:45:28,040 | INFO     | bot.historical | SKY/USD 15m: pages=4 fetched=23927 inserted=23927 dropped=0
+2026-11-09 23:45:35,225 | INFO     | bot.historical | SKY/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:45:36,410 | INFO     | bot.historical | SKY/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:45:49,125 | WARNING  | bot.historical | SKY/USD 5m: 2557 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:45:49,125 | INFO     | bot.historical | SKY/USD 5m: pages=8 fetched=68805 inserted=68805 dropped=0
+2026-11-09 23:46:02,256 | WARNING  | bot.historical | SOL/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:46:02,257 | INFO     | bot.historical | SOL/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:46:02,541 | WARNING  | bot.historical | SOL/USD 15m: 33 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:46:02,541 | INFO     | bot.historical | SOL/USD 15m: pages=4 fetched=23957 inserted=23957 dropped=0
+2026-11-09 23:46:13,188 | INFO     | bot.historical | SOL/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:46:13,541 | INFO     | bot.historical | SOL/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:46:18,467 | WARNING  | bot.historical | SOL/USD 5m: 1718 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:46:18,467 | INFO     | bot.historical | SOL/USD 5m: pages=7 fetched=69860 inserted=69860 dropped=0
+2026-11-09 23:46:29,931 | WARNING  | bot.historical | SOL/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:46:29,931 | INFO     | bot.historical | SOL/USDC 1h: pages=1 fetched=5986 inserted=5986 dropped=0
+2026-11-09 23:46:31,776 | WARNING  | bot.historical | SOL/USDC 15m: 71 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:46:31,776 | INFO     | bot.historical | SOL/USDC 15m: pages=3 fetched=23855 inserted=23855 dropped=0
+2026-11-09 23:46:40,703 | INFO     | bot.historical | SOL/USDC 4h: pages=1 fetched=1497 inserted=1497 dropped=0
+2026-11-09 23:46:41,918 | INFO     | bot.historical | SOL/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:46:55,654 | WARNING  | bot.historical | SOL/USDC 5m: 2504 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:46:55,654 | INFO     | bot.historical | SOL/USDC 5m: pages=7 fetched=68546 inserted=68546 dropped=0
+2026-11-09 23:46:56,468 | WARNING  | bot.historical | SOL/USDT 15m: 67 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:46:56,468 | INFO     | bot.historical | SOL/USDT 15m: pages=3 fetched=23913 inserted=23913 dropped=0
+2026-11-09 23:47:06,989 | WARNING  | bot.historical | SOL/USDT 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:47:06,990 | INFO     | bot.historical | SOL/USDT 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:47:12,874 | INFO     | bot.historical | SOL/USDT 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:47:13,994 | INFO     | bot.historical | SOL/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:47:22,844 | WARNING  | bot.historical | SOL/USDT 5m: 2389 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:47:22,844 | INFO     | bot.historical | SOL/USDT 5m: pages=7 fetched=68884 inserted=68884 dropped=0
+2026-11-09 23:47:36,882 | WARNING  | bot.historical | SUSHI/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:47:36,883 | INFO     | bot.historical | SUSHI/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:47:37,969 | WARNING  | bot.historical | SUSHI/USD 15m: 14 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:47:37,969 | INFO     | bot.historical | SUSHI/USD 15m: pages=3 fetched=23983 inserted=23983 dropped=0
+2026-11-09 23:47:49,765 | INFO     | bot.historical | SUSHI/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:47:50,091 | INFO     | bot.historical | SUSHI/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:48:04,970 | WARNING  | bot.historical | SUSHI/USDC 15m: 15 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:48:04,970 | INFO     | bot.historical | SUSHI/USDC 15m: pages=3 fetched=23982 inserted=23982 dropped=0
+2026-11-09 23:48:05,494 | WARNING  | bot.historical | SUSHI/USD 5m: 1115 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:48:05,494 | INFO     | bot.historical | SUSHI/USD 5m: pages=8 fetched=70685 inserted=70685 dropped=0
+2026-11-09 23:48:14,372 | WARNING  | bot.historical | SUSHI/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:48:14,372 | INFO     | bot.historical | SUSHI/USDC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:48:24,113 | INFO     | bot.historical | SUSHI/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:48:25,278 | INFO     | bot.historical | SUSHI/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:48:39,974 | WARNING  | bot.historical | SUSHI/USDC 5m: 1262 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:48:39,974 | INFO     | bot.historical | SUSHI/USDC 5m: pages=8 fetched=70529 inserted=70529 dropped=0
+2026-11-09 23:48:41,329 | WARNING  | bot.historical | SUSHI/USDT 15m: 13 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:48:41,329 | INFO     | bot.historical | SUSHI/USDT 15m: pages=3 fetched=23984 inserted=23984 dropped=0
+2026-11-09 23:48:48,927 | WARNING  | bot.historical | SUSHI/USDT 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:48:48,928 | INFO     | bot.historical | SUSHI/USDT 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:48:59,640 | INFO     | bot.historical | SUSHI/USDT 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:49:01,308 | INFO     | bot.historical | SUSHI/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:49:13,092 | WARNING  | bot.historical | SUSHI/USDT 5m: 1317 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:49:13,093 | INFO     | bot.historical | SUSHI/USDT 5m: pages=8 fetched=70476 inserted=70476 dropped=0
+2026-11-09 23:49:14,296 | WARNING  | bot.historical | TRUMP/USD 15m: 26 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:49:14,296 | INFO     | bot.historical | TRUMP/USD 15m: pages=3 fetched=23921 inserted=23921 dropped=0
+2026-11-09 23:49:25,659 | WARNING  | bot.historical | TRUMP/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:49:25,659 | INFO     | bot.historical | TRUMP/USD 1h: pages=1 fetched=5990 inserted=5990 dropped=0
+2026-11-09 23:49:32,717 | INFO     | bot.historical | TRUMP/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:49:34,048 | INFO     | bot.historical | TRUMP/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:49:47,414 | WARNING  | bot.historical | TRUMP/USD 5m: 1474 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:49:47,414 | INFO     | bot.historical | TRUMP/USD 5m: pages=8 fetched=70056 inserted=70056 dropped=0
+2026-11-09 23:49:48,430 | WARNING  | bot.historical | UNI/BTC 15m: 10 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:49:48,430 | INFO     | bot.historical | UNI/BTC 15m: pages=3 fetched=23987 inserted=23987 dropped=0
+2026-11-09 23:49:59,823 | WARNING  | bot.historical | UNI/BTC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:49:59,823 | INFO     | bot.historical | UNI/BTC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:50:07,804 | INFO     | bot.historical | UNI/BTC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:50:09,396 | INFO     | bot.historical | UNI/BTC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:50:22,987 | WARNING  | bot.historical | UNI/BTC 5m: 1286 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:50:22,988 | INFO     | bot.historical | UNI/BTC 5m: pages=8 fetched=70539 inserted=70539 dropped=0
+2026-11-09 23:50:23,949 | WARNING  | bot.historical | UNI/USD 15m: 2 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:50:23,949 | INFO     | bot.historical | UNI/USD 15m: pages=3 fetched=23994 inserted=23994 dropped=0
+2026-11-09 23:50:34,939 | WARNING  | bot.historical | UNI/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:50:34,940 | INFO     | bot.historical | UNI/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:50:43,152 | INFO     | bot.historical | UNI/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:50:44,501 | INFO     | bot.historical | UNI/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:50:59,216 | WARNING  | bot.historical | UNI/USD 5m: 583 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:50:59,216 | INFO     | bot.historical | UNI/USD 5m: pages=8 fetched=71344 inserted=71344 dropped=0
+2026-11-09 23:51:00,855 | WARNING  | bot.historical | UNI/USDC 15m: 3 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:51:00,856 | INFO     | bot.historical | UNI/USDC 15m: pages=3 fetched=23993 inserted=23993 dropped=0
+2026-11-09 23:51:12,588 | WARNING  | bot.historical | UNI/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:51:12,588 | INFO     | bot.historical | UNI/USDC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:51:20,767 | INFO     | bot.historical | UNI/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:51:22,626 | INFO     | bot.historical | UNI/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:51:38,440 | WARNING  | bot.historical | UNI/USDC 5m: 630 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:51:38,440 | INFO     | bot.historical | UNI/USDC 5m: pages=8 fetched=71289 inserted=71289 dropped=0
+2026-11-09 23:51:39,566 | WARNING  | bot.historical | UNI/USDT 15m: 2 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:51:39,567 | INFO     | bot.historical | UNI/USDT 15m: pages=3 fetched=23994 inserted=23994 dropped=0
+2026-11-09 23:51:48,337 | WARNING  | bot.historical | UNI/USDT 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:51:48,338 | INFO     | bot.historical | UNI/USDT 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:51:57,166 | INFO     | bot.historical | UNI/USDT 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:51:59,144 | INFO     | bot.historical | UNI/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:52:08,352 | WARNING  | bot.historical | USDC/USD 15m: 906 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:08,352 | INFO     | bot.historical | USDC/USD 15m: pages=2 fetched=10031 inserted=10031 dropped=0
+2026-11-09 23:52:09,042 | WARNING  | bot.historical | USDC/USD 5m: 1699 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:09,042 | INFO     | bot.historical | USDC/USD 5m: pages=3 fetched=25283 inserted=25283 dropped=0
+2026-11-09 23:52:09,411 | WARNING  | bot.historical | UNI/USDT 5m: 626 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:09,411 | INFO     | bot.historical | UNI/USDT 5m: pages=8 fetched=71294 inserted=71294 dropped=0
+2026-11-09 23:52:14,411 | WARNING  | bot.historical | USDC/USD 1h: 317 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:14,411 | INFO     | bot.historical | USDC/USD 1h: pages=1 fetched=3542 inserted=3542 dropped=0
+2026-11-09 23:52:15,653 | INFO     | bot.historical | USDC/USD 4h: pages=1 fetched=1274 inserted=1274 dropped=0
+2026-11-09 23:52:15,976 | INFO     | bot.historical | USDC/USD 1d: pages=1 fetched=248 inserted=248 dropped=0
+2026-11-09 23:52:21,604 | WARNING  | bot.historical | USDG/USD 15m: 27 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:21,604 | INFO     | bot.historical | USDG/USD 15m: pages=1 fetched=7520 inserted=7520 dropped=0
+2026-11-09 23:52:23,253 | WARNING  | bot.historical | USDG/USD 1h: 5 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:23,254 | INFO     | bot.historical | USDG/USD 1h: pages=1 fetched=1967 inserted=1967 dropped=0
+2026-11-09 23:52:29,401 | INFO     | bot.historical | USDG/USD 4h: pages=1 fetched=561 inserted=561 dropped=0
+2026-11-09 23:52:29,718 | INFO     | bot.historical | USDG/USD 1d: pages=1 fetched=152 inserted=152 dropped=0
+2026-11-09 23:52:30,221 | WARNING  | bot.historical | USDG/USD 5m: 46 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:30,221 | INFO     | bot.historical | USDG/USD 5m: pages=3 fetched=22266 inserted=22266 dropped=0
+2026-11-09 23:52:32,263 | WARNING  | bot.historical | USDT/USD 15m: 841 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:32,264 | WARNING  | bot.historical | USDT/USD 15m: earliest candle available is 1772688600000 but 1772684100000 was requested; the source likely limits how much history it serves. Use a different source for deeper history.
+2026-11-09 23:52:32,264 | INFO     | bot.historical | USDT/USD 15m: pages=1 fetched=6231 inserted=6231 dropped=0
+2026-11-09 23:52:36,556 | WARNING  | bot.historical | USDT/USD 1h: 286 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:36,556 | INFO     | bot.historical | USDT/USD 1h: pages=1 fetched=2623 inserted=2623 dropped=0
+2026-11-09 23:52:37,125 | WARNING  | bot.historical | USDT/USD 5m: 1741 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:37,126 | WARNING  | bot.historical | USDT/USD 5m: earliest candle available is 1772689200000 but 1772684100000 was requested; the source likely limits how much history it serves. Use a different source for deeper history.
+2026-11-09 23:52:37,126 | INFO     | bot.historical | USDT/USD 5m: pages=2 fetched=13734 inserted=13734 dropped=0
+2026-11-09 23:52:37,946 | INFO     | bot.historical | USDT/USD 4h: pages=1 fetched=1128 inserted=1128 dropped=0
+2026-11-09 23:52:38,318 | INFO     | bot.historical | USDT/USD 1d: pages=1 fetched=249 inserted=249 dropped=0
+2026-11-09 23:52:40,007 | WARNING  | bot.historical | USDT/USDC 15m: 414 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:40,007 | WARNING  | bot.historical | USDT/USDC 15m: earliest candle available is 1772686800000 but 1772684100000 was requested; the source likely limits how much history it serves. Use a different source for deeper history.
+2026-11-09 23:52:40,007 | INFO     | bot.historical | USDT/USDC 15m: pages=1 fetched=4727 inserted=4727 dropped=0
+2026-11-09 23:52:40,718 | WARNING  | bot.historical | USDT/USDC 1h: 74 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:40,718 | INFO     | bot.historical | USDT/USDC 1h: pages=1 fetched=1544 inserted=1544 dropped=0
+2026-11-09 23:52:41,104 | WARNING  | bot.historical | USDT/USDC 5m: 1080 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:41,104 | WARNING  | bot.historical | USDT/USDC 5m: earliest candle available is 1772687400000 but 1772684100000 was requested; the source likely limits how much history it serves. Use a different source for deeper history.
+2026-11-09 23:52:41,104 | INFO     | bot.historical | USDT/USDC 5m: pages=2 fetched=11904 inserted=11904 dropped=0
+2026-11-09 23:52:44,843 | INFO     | bot.historical | USDT/USDC 4h: pages=1 fetched=513 inserted=513 dropped=0
+2026-11-09 23:52:45,186 | INFO     | bot.historical | USDT/USDC 1d: pages=1 fetched=143 inserted=143 dropped=0
+2026-11-09 23:52:56,964 | WARNING  | bot.historical | WIF/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:52:56,964 | INFO     | bot.historical | WIF/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:53:12,160 | INFO     | bot.historical | WIF/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:53:14,599 | WARNING  | bot.historical | WIF/USD 15m: 5 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:53:14,600 | INFO     | bot.historical | WIF/USD 15m: pages=3 fetched=23992 inserted=23992 dropped=0
+2026-11-09 23:53:14,910 | INFO     | bot.historical | WIF/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:53:30,296 | WARNING  | bot.historical | XRP/USD 15m: 48 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:53:30,296 | INFO     | bot.historical | XRP/USD 15m: pages=3 fetched=23946 inserted=23946 dropped=0
+2026-11-09 23:53:42,066 | WARNING  | bot.historical | XRP/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:53:42,066 | INFO     | bot.historical | XRP/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:53:42,416 | WARNING  | bot.historical | WIF/USD 5m: 617 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:53:42,417 | INFO     | bot.historical | WIF/USD 5m: pages=8 fetched=71308 inserted=71308 dropped=0
+2026-11-09 23:53:49,403 | INFO     | bot.historical | XRP/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:53:49,757 | INFO     | bot.historical | XRP/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:53:56,814 | WARNING  | bot.historical | XRP/USD 5m: 2608 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:53:56,814 | INFO     | bot.historical | XRP/USD 5m: pages=7 fetched=68771 inserted=68771 dropped=0
+2026-11-09 23:54:06,810 | WARNING  | bot.historical | XTZ/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:54:06,810 | INFO     | bot.historical | XTZ/USD 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:54:12,087 | WARNING  | bot.historical | XTZ/USD 15m: 48 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:54:12,087 | INFO     | bot.historical | XTZ/USD 15m: pages=3 fetched=23947 inserted=23947 dropped=0
+2026-11-09 23:54:18,980 | INFO     | bot.historical | XTZ/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:54:20,465 | INFO     | bot.historical | XTZ/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:54:31,167 | WARNING  | bot.historical | XTZ/USD 5m: 2592 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:54:31,167 | INFO     | bot.historical | XTZ/USD 5m: pages=7 fetched=68864 inserted=68864 dropped=0
+2026-11-09 23:54:35,226 | WARNING  | bot.historical | XTZ/USDC 15m: 52 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:54:35,226 | INFO     | bot.historical | XTZ/USDC 15m: pages=3 fetched=23943 inserted=23943 dropped=0
+2026-11-09 23:54:43,126 | WARNING  | bot.historical | XTZ/USDC 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:54:43,126 | INFO     | bot.historical | XTZ/USDC 1h: pages=1 fetched=5999 inserted=5999 dropped=0
+2026-11-09 23:54:49,829 | INFO     | bot.historical | XTZ/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:54:51,041 | INFO     | bot.historical | XTZ/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:54:58,778 | WARNING  | bot.historical | XTZ/USDC 5m: 2631 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:54:58,778 | INFO     | bot.historical | XTZ/USDC 5m: pages=7 fetched=68814 inserted=68814 dropped=0
+2026-11-09 23:55:10,047 | WARNING  | bot.historical | YFI/USD 1h: 1 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:55:10,047 | INFO     | bot.historical | YFI/USD 1h: pages=1 fetched=5997 inserted=5997 dropped=0
+2026-11-09 23:55:10,988 | WARNING  | bot.historical | YFI/USD 15m: 63 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:55:10,988 | INFO     | bot.historical | YFI/USD 15m: pages=3 fetched=23918 inserted=23918 dropped=0
+2026-11-09 23:55:20,530 | INFO     | bot.historical | YFI/USD 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:55:20,943 | INFO     | bot.historical | YFI/USD 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:55:29,447 | WARNING  | bot.historical | YFI/USD 5m: 3207 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:55:29,447 | INFO     | bot.historical | YFI/USD 5m: pages=7 fetched=68011 inserted=68011 dropped=0
+2026-11-09 23:55:34,176 | WARNING  | bot.historical | YFI/USDC 15m: 58 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:55:34,176 | INFO     | bot.historical | YFI/USDC 15m: pages=3 fetched=23928 inserted=23928 dropped=0
+2026-11-09 23:55:40,016 | INFO     | bot.historical | YFI/USDC 1h: pages=1 fetched=5998 inserted=5998 dropped=0
+2026-11-09 23:55:49,513 | INFO     | bot.historical | YFI/USDC 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:55:49,871 | INFO     | bot.historical | YFI/USDC 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:56:00,153 | WARNING  | bot.historical | YFI/USDC 5m: 3210 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:56:00,154 | INFO     | bot.historical | YFI/USDC 5m: pages=7 fetched=68029 inserted=68029 dropped=0
+2026-11-09 23:56:01,898 | WARNING  | bot.historical | YFI/USDT 15m: 69 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:56:01,898 | INFO     | bot.historical | YFI/USDT 15m: pages=3 fetched=23914 inserted=23914 dropped=0
+2026-11-09 23:56:10,502 | INFO     | bot.historical | YFI/USDT 1h: pages=1 fetched=5998 inserted=5998 dropped=0
+2026-11-09 23:56:16,959 | INFO     | bot.historical | YFI/USDT 4h: pages=1 fetched=1500 inserted=1500 dropped=0
+2026-11-09 23:56:17,279 | INFO     | bot.historical | YFI/USDT 1d: pages=1 fetched=250 inserted=250 dropped=0
+2026-11-09 23:56:23,029 | WARNING  | bot.historical | YFI/USDT 5m: 3201 candle(s) spaced 1h away from the nominal width (DST-like); bar width is not constant for this source
+2026-11-09 23:56:23,030 | INFO     | bot.historical | YFI/USDT 5m: pages=7 fetched=67997 inserted=67997 dropped=0
+2026-11-09 23:57:56,046 | INFO     | bot.main | data source: alpaca | mode: PAPER TRADING ENABLED
+2026-11-09 23:57:56,708 | INFO     | bot.alpaca | Alpaca lists 73 tradable crypto assets
+2026-11-09 23:57:56,709 | INFO     | bot.main | USE_ALL_CRYPTO=true → trading 73 pairs: AAVE/USD, AAVE/USDC, AAVE/USDT, ADA/USD, ARB/USD, AVAX/USD, AVAX/USDC, AVAX/USDT, BAT/USD, BAT/USDC, BCH/BTC, BCH/USD ...
+2026-11-09 23:57:56,755 | INFO     | bot.engine | === paper cycle 1 ===
+2026-11-09 23:57:57,068 | INFO     | bot.engine | portfolio: equity=$100000.00  cash=$100000.00  positions=0  heat=0.0%  daily_pnl=0.00%
+2026-11-09 23:57:57,124 | INFO     | bot.engine | AAVE/USD 1h → SELL  score=-1.75  reasons=EMA9 crossed below EMA21
+2026-11-09 23:57:57,124 | INFO     | bot.engine | AAVE/USD rejected by risk: no open position to exit
+2026-11-09 23:57:57,467 | INFO     | bot.engine | AAVE/USDC 1h → SELL  score=-1.50  reasons=EMA9 crossed below EMA21
+2026-11-09 23:57:57,467 | INFO     | bot.engine | AAVE/USDC rejected by risk: no open position to exit
+2026-11-09 23:57:57,799 | INFO     | bot.engine | AAVE/USDT 1h → SELL  score=-1.50  reasons=EMA9 crossed below EMA21
+2026-11-09 23:57:57,799 | INFO     | bot.engine | AAVE/USDT rejected by risk: no open position to exit
+2026-11-09 23:57:58,133 | INFO     | bot.engine | ADA/USD 1h → SELL  score=-1.75  reasons=close below EMA200
+2026-11-09 23:57:58,133 | INFO     | bot.engine | ADA/USD rejected by risk: no open position to exit
+2026-11-09 23:57:58,464 | INFO     | bot.engine | ARB/USD 1h → HOLD  score=-0.25  reasons=not met: no EMA9/21 cross-up; not met: RSI in range
+2026-11-09 23:57:58,465 | INFO     | bot.engine | ARB/USD rejected by risk: HOLD signal
+2026-11-09 23:57:58,796 | INFO     | bot.engine | AVAX/USD 1h → HOLD  score=+1.25  reasons=not met: no EMA9/21 cross-up; not met: volume confirmation
+2026-11-09 23:57:58,797 | INFO     | bot.engine | AVAX/USD rejected by risk: HOLD signal
+2026-11-09 23:57:59,126 | INFO     | bot.engine | AVAX/USDC 1h → HOLD  score=+1.50  reasons=not met: no EMA9/21 cross-up; not met: volume confirmation
+2026-11-09 23:57:59,126 | INFO     | bot.engine | AVAX/USDC rejected by risk: HOLD signal
+2026-11-09 23:57:59,462 | INFO     | bot.engine | AVAX/USDT 1h → HOLD  score=+1.50  reasons=not met: no EMA9/21 cross-up; not met: volume confirmation
+2026-11-09 23:57:59,463 | INFO     | bot.engine | AVAX/USDT rejected by risk: HOLD signal
+2026-11-09 23:57:59,796 | INFO     | bot.engine | BAT/USD 1h → HOLD  score=+1.25  reasons=not met: no EMA9/21 cross-up; not met: volume confirmation
+2026-11-09 23:57:59,797 | INFO     | bot.engine | BAT/USD rejected by risk: HOLD signal
+2026-11-09 23:58:00,138 | INFO     | bot.engine | BAT/USDC 1h → HOLD  score=+1.50  reasons=not met: no EMA9/21 cross-up; not met: volume confirmation
+2026-11-09 23:58:00,138 | INFO     | bot.engine | BAT/USDC rejected by risk: HOLD signal
+2026-11-09 23:58:00,477 | INFO     | bot.engine | BCH/BTC 1h → SELL  score=-2.50  reasons=close below EMA200
+2026-11-09 23:58:00,477 | INFO     | bot.engine | BCH/BTC rejected by risk: no open position to exit
+2026-11-09 23:58:00,814 | INFO     | bot.engine | BCH/USD 1h → SELL  score=-2.75  reasons=close below EMA200
+2026-11-09 23:58:00,815 | INFO     | bot.engine | BCH/USD rejected by risk: no open position to exit
+2026-11-09 23:58:01,150 | INFO     | bot.engine | BCH/USDC 1h → SELL  score=-2.50  reasons=close below EMA200
+2026-11-09 23:58:01,151 | INFO     | bot.engine | BCH/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:01,483 | INFO     | bot.engine | BCH/USDT 1h → SELL  score=-2.50  reasons=close below EMA200
+2026-11-09 23:58:01,483 | INFO     | bot.engine | BCH/USDT rejected by risk: no open position to exit
+2026-11-09 23:58:01,820 | INFO     | bot.engine | BONK/USD 1h → SELL  score=-1.00  reasons=close below EMA200
+2026-11-09 23:58:01,820 | INFO     | bot.engine | BONK/USD rejected by risk: no open position to exit
+2026-11-09 23:58:02,158 | INFO     | bot.engine | BTC/USD 1h → SELL  score=-2.75  reasons=EMA9 crossed below EMA21
+2026-11-09 23:58:02,158 | INFO     | bot.engine | BTC/USD rejected by risk: no open position to exit
+2026-11-09 23:58:02,501 | INFO     | bot.engine | BTC/USDC 1h → SELL  score=-2.00  reasons=EMA9 crossed below EMA21
+2026-11-09 23:58:02,501 | INFO     | bot.engine | BTC/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:02,842 | INFO     | bot.engine | BTC/USDT 1h → SELL  score=-2.00  reasons=EMA9 crossed below EMA21
+2026-11-09 23:58:02,843 | INFO     | bot.engine | BTC/USDT rejected by risk: no open position to exit
+2026-11-09 23:58:03,176 | INFO     | bot.engine | CRV/USD 1h → SELL  score=-1.75  reasons=close below EMA200
+2026-11-09 23:58:03,176 | INFO     | bot.engine | CRV/USD rejected by risk: no open position to exit
+2026-11-09 23:58:03,513 | INFO     | bot.engine | CRV/USDC 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:03,514 | INFO     | bot.engine | CRV/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:03,848 | INFO     | bot.engine | DOGE/USD 1h → SELL  score=-2.25  reasons=EMA9 crossed below EMA21
+2026-11-09 23:58:03,849 | INFO     | bot.engine | DOGE/USD rejected by risk: no open position to exit
+2026-11-09 23:58:04,185 | INFO     | bot.engine | DOGE/USDC 1h → SELL  score=-2.00  reasons=EMA9 crossed below EMA21
+2026-11-09 23:58:04,185 | INFO     | bot.engine | DOGE/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:04,520 | INFO     | bot.engine | DOGE/USDT 1h → SELL  score=-2.00  reasons=EMA9 crossed below EMA21
+2026-11-09 23:58:04,521 | INFO     | bot.engine | DOGE/USDT rejected by risk: no open position to exit
+2026-11-09 23:58:04,859 | INFO     | bot.engine | DOT/USD 1h → SELL  score=-3.25  reasons=close below EMA200
+2026-11-09 23:58:04,859 | INFO     | bot.engine | DOT/USD rejected by risk: no open position to exit
+2026-11-09 23:58:05,195 | INFO     | bot.engine | DOT/USDC 1h → SELL  score=-3.00  reasons=close below EMA200
+2026-11-09 23:58:05,195 | INFO     | bot.engine | DOT/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:05,528 | INFO     | bot.engine | ETH/BTC 1h → SELL  score=-1.50  reasons=close below EMA200
+2026-11-09 23:58:05,529 | INFO     | bot.engine | ETH/BTC rejected by risk: no open position to exit
+2026-11-09 23:58:05,862 | INFO     | bot.engine | ETH/USD 1h → SELL  score=-2.75  reasons=close below EMA200
+2026-11-09 23:58:05,862 | INFO     | bot.engine | ETH/USD rejected by risk: no open position to exit
+2026-11-09 23:58:06,198 | INFO     | bot.engine | ETH/USDC 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:06,198 | INFO     | bot.engine | ETH/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:06,529 | INFO     | bot.engine | ETH/USDT 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:06,530 | INFO     | bot.engine | ETH/USDT rejected by risk: no open position to exit
+2026-11-09 23:58:06,865 | INFO     | bot.engine | FIL/USD 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:06,865 | INFO     | bot.engine | FIL/USD rejected by risk: no open position to exit
+2026-11-09 23:58:07,204 | INFO     | bot.engine | GRT/USD 1h → SELL  score=-1.75  reasons=close below EMA200
+2026-11-09 23:58:07,205 | INFO     | bot.engine | GRT/USD rejected by risk: no open position to exit
+2026-11-09 23:58:07,540 | INFO     | bot.engine | GRT/USDC 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:07,541 | INFO     | bot.engine | GRT/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:07,880 | INFO     | bot.engine | HYPE/USD 1h → SELL  score=-3.75  reasons=close below EMA200
+2026-11-09 23:58:07,880 | INFO     | bot.engine | HYPE/USD rejected by risk: no open position to exit
+2026-11-09 23:58:08,210 | INFO     | bot.engine | LDO/USD 1h → SELL  score=-1.00  reasons=close below EMA200
+2026-11-09 23:58:08,210 | INFO     | bot.engine | LDO/USD rejected by risk: no open position to exit
+2026-11-09 23:58:08,540 | INFO     | bot.engine | LINK/BTC 1h → SELL  score=+0.00  reasons=close below EMA200
+2026-11-09 23:58:08,541 | INFO     | bot.engine | LINK/BTC rejected by risk: no open position to exit
+2026-11-09 23:58:08,881 | INFO     | bot.engine | LINK/USD 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:08,882 | INFO     | bot.engine | LINK/USD rejected by risk: no open position to exit
+2026-11-09 23:58:09,213 | INFO     | bot.engine | LINK/USDC 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:09,214 | INFO     | bot.engine | LINK/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:09,544 | INFO     | bot.engine | LINK/USDT 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:09,544 | INFO     | bot.engine | LINK/USDT rejected by risk: no open position to exit
+2026-11-09 23:58:09,878 | INFO     | bot.engine | LTC/BTC 1h → SELL  score=+0.00  reasons=close below EMA200
+2026-11-09 23:58:09,879 | INFO     | bot.engine | LTC/BTC rejected by risk: no open position to exit
+2026-11-09 23:58:10,212 | INFO     | bot.engine | LTC/USD 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:10,213 | INFO     | bot.engine | LTC/USD rejected by risk: no open position to exit
+2026-11-09 23:58:10,541 | INFO     | bot.engine | LTC/USDC 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:10,542 | INFO     | bot.engine | LTC/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:10,873 | INFO     | bot.engine | LTC/USDT 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:10,874 | INFO     | bot.engine | LTC/USDT rejected by risk: no open position to exit
+2026-11-09 23:58:11,206 | INFO     | bot.engine | ONDO/USD 1h → SELL  score=-0.50  reasons=close below EMA200
+2026-11-09 23:58:11,206 | INFO     | bot.engine | ONDO/USD rejected by risk: no open position to exit
+2026-11-09 23:58:11,542 | INFO     | bot.engine | PAXG/USD 1h → HOLD  score=+0.75  reasons=not met: no EMA9/21 cross-up; not met: RSI in range
+2026-11-09 23:58:11,542 | INFO     | bot.engine | PAXG/USD rejected by risk: HOLD signal
+2026-11-09 23:58:11,883 | INFO     | bot.engine | PEPE/USD 1h → HOLD  score=+2.25  reasons=not met: no EMA9/21 cross-up; not met: volume confirmation
+2026-11-09 23:58:11,884 | INFO     | bot.engine | PEPE/USD rejected by risk: HOLD signal
+2026-11-09 23:58:12,219 | INFO     | bot.engine | POL/USD 1h → SELL  score=-3.00  reasons=close below EMA200
+2026-11-09 23:58:12,219 | INFO     | bot.engine | POL/USD rejected by risk: no open position to exit
+2026-11-09 23:58:12,551 | INFO     | bot.engine | RENDER/USD 1h → SELL  score=-1.75  reasons=EMA9 crossed below EMA21
+2026-11-09 23:58:12,551 | INFO     | bot.engine | RENDER/USD rejected by risk: no open position to exit
+2026-11-09 23:58:12,892 | INFO     | bot.engine | SHIB/USD 1h → SELL  score=-3.00  reasons=EMA9 crossed below EMA21
+2026-11-09 23:58:12,893 | INFO     | bot.engine | SHIB/USD rejected by risk: no open position to exit
+2026-11-09 23:58:13,230 | INFO     | bot.engine | SHIB/USDC 1h → SELL  score=-3.00  reasons=close below EMA200
+2026-11-09 23:58:13,230 | INFO     | bot.engine | SHIB/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:13,557 | INFO     | bot.engine | SHIB/USDT 1h → SELL  score=-3.00  reasons=close below EMA200
+2026-11-09 23:58:13,557 | INFO     | bot.engine | SHIB/USDT rejected by risk: no open position to exit
+2026-11-09 23:58:13,889 | INFO     | bot.engine | SKY/USD 1h → SELL  score=-3.25  reasons=close below EMA200
+2026-11-09 23:58:13,889 | INFO     | bot.engine | SKY/USD rejected by risk: no open position to exit
+2026-11-09 23:58:14,218 | INFO     | bot.engine | SOL/USD 1h → SELL  score=-3.75  reasons=close below EMA200
+2026-11-09 23:58:14,218 | INFO     | bot.engine | SOL/USD rejected by risk: no open position to exit
+2026-11-09 23:58:14,555 | INFO     | bot.engine | SOL/USDC 1h → SELL  score=-3.00  reasons=close below EMA200
+2026-11-09 23:58:14,556 | INFO     | bot.engine | SOL/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:14,899 | INFO     | bot.engine | SOL/USDT 1h → SELL  score=-3.00  reasons=close below EMA200
+2026-11-09 23:58:14,900 | INFO     | bot.engine | SOL/USDT rejected by risk: no open position to exit
+2026-11-09 23:58:15,232 | INFO     | bot.engine | SUSHI/USD 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:15,233 | INFO     | bot.engine | SUSHI/USD rejected by risk: no open position to exit
+2026-11-09 23:58:15,577 | INFO     | bot.engine | SUSHI/USDC 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:15,577 | INFO     | bot.engine | SUSHI/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:15,906 | INFO     | bot.engine | SUSHI/USDT 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:15,907 | INFO     | bot.engine | SUSHI/USDT rejected by risk: no open position to exit
+2026-11-09 23:58:16,244 | INFO     | bot.engine | TRUMP/USD 1h → SELL  score=-0.75  reasons=close below EMA200
+2026-11-09 23:58:16,244 | INFO     | bot.engine | TRUMP/USD rejected by risk: no open position to exit
+2026-11-09 23:58:16,570 | INFO     | bot.engine | UNI/BTC 1h → HOLD  score=+1.00  reasons=not met: no EMA9/21 cross-up; not met: RSI in range
+2026-11-09 23:58:16,570 | INFO     | bot.engine | UNI/BTC rejected by risk: HOLD signal
+2026-11-09 23:58:16,902 | INFO     | bot.engine | UNI/USD 1h → SELL  score=-2.75  reasons=close below EMA200
+2026-11-09 23:58:16,902 | INFO     | bot.engine | UNI/USD rejected by risk: no open position to exit
+2026-11-09 23:58:17,237 | INFO     | bot.engine | UNI/USDC 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:17,238 | INFO     | bot.engine | UNI/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:17,571 | INFO     | bot.engine | UNI/USDT 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:17,572 | INFO     | bot.engine | UNI/USDT rejected by risk: no open position to exit
+2026-11-09 23:58:17,900 | INFO     | bot.engine | USDC/USD 1h → SELL  score=-2.75  reasons=close below EMA200
+2026-11-09 23:58:17,901 | INFO     | bot.engine | USDC/USD rejected by risk: no open position to exit
+2026-11-09 23:58:18,236 | INFO     | bot.engine | USDG/USD 1h → HOLD  score=+0.50  reasons=not met: no EMA9/21 cross-up; not met: volume confirmation
+2026-11-09 23:58:18,237 | INFO     | bot.engine | USDG/USD rejected by risk: HOLD signal
+2026-11-09 23:58:18,573 | INFO     | bot.engine | USDT/USD 1h → SELL  score=-1.25  reasons=close below EMA200
+2026-11-09 23:58:18,573 | INFO     | bot.engine | USDT/USD rejected by risk: no open position to exit
+2026-11-09 23:58:18,902 | INFO     | bot.engine | USDT/USDC 1h → SELL  score=-2.00  reasons=close below EMA200
+2026-11-09 23:58:18,902 | INFO     | bot.engine | USDT/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:19,241 | INFO     | bot.engine | WIF/USD 1h → SELL  score=-3.00  reasons=close below EMA200
+2026-11-09 23:58:19,242 | INFO     | bot.engine | WIF/USD rejected by risk: no open position to exit
+2026-11-09 23:58:19,582 | INFO     | bot.engine | XRP/USD 1h → SELL  score=-2.25  reasons=close below EMA200
+2026-11-09 23:58:19,582 | INFO     | bot.engine | XRP/USD rejected by risk: no open position to exit
+2026-11-09 23:58:19,908 | INFO     | bot.engine | XTZ/USD 1h → SELL  score=-3.00  reasons=close below EMA200
+2026-11-09 23:58:19,908 | INFO     | bot.engine | XTZ/USD rejected by risk: no open position to exit
+2026-11-09 23:58:20,236 | INFO     | bot.engine | XTZ/USDC 1h → SELL  score=-3.00  reasons=close below EMA200
+2026-11-09 23:58:20,236 | INFO     | bot.engine | XTZ/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:20,575 | INFO     | bot.engine | YFI/USD 1h → SELL  score=-3.00  reasons=close below EMA200
+2026-11-09 23:58:20,575 | INFO     | bot.engine | YFI/USD rejected by risk: no open position to exit
+2026-11-09 23:58:20,916 | INFO     | bot.engine | YFI/USDC 1h → SELL  score=-3.00  reasons=close below EMA200
+2026-11-09 23:58:20,917 | INFO     | bot.engine | YFI/USDC rejected by risk: no open position to exit
+2026-11-09 23:58:21,251 | INFO     | bot.engine | YFI/USDT 1h → SELL  score=-3.00  reasons=close below EMA200
+2026-11-09 23:58:21,251 | INFO     | bot.engine | YFI/USDT rejected by risk: no open position to exit
